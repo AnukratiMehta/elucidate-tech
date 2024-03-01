@@ -1,12 +1,9 @@
 import { StyleSheet } from 'react-native';
 
-
 const styles = StyleSheet.create({
-
     container: {
         padding: 16,
-        height: '100%',
-        backgroundColor: '#fdf2f8'
+        backgroundColor: '#fdf2f8',
     },
 
     screenHeader: {
@@ -19,8 +16,8 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         marginBottom: 10,
         paddingHorizontal: 8,
-        outlineStyle: 'none',
     },
+
     button: {
         backgroundColor: '#783fc2',
         padding: 10,
@@ -28,6 +25,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
     },
+
     buttonText: {
         color: 'white',
         fontWeight: 'bold',
@@ -42,6 +40,8 @@ const styles = StyleSheet.create({
     userContainer: {
         marginTop: 20,
         alignItems: 'center',
+        backgroundColor: '#fdf2f8',
+        paddingBottom: 30
     },
 
     userName: {
@@ -78,8 +78,11 @@ const styles = StyleSheet.create({
 
     repoContainer: {
         paddingHorizontal: 20,
-        MarginVertical: 20,
         backgroundColor: '#fdf2f8',
+    },
+
+    miniContainer: {
+        paddingVertical: 20,
     },
 
     repoCard: {
@@ -116,6 +119,18 @@ const styles = StyleSheet.create({
         marginTop: 3,
     },
 
+    settingsContainer: {
+        alignSelf: 'center',
+        marginTop: 50,
+    },
+
+    settingsLabel: {
+        color: '#922372'
+    },
+
+    settingsToggle: {
+        alignSelf: 'center',
+    },
 });
 
 export default styles;
