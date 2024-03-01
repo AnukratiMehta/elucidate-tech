@@ -31,6 +31,8 @@ The GitHub User Explorer app empowers users to search for GitHub profiles using 
 
    Follow the terminal instructions to open the app on your Android or iOS device/emulator.
 
+2. Please run the [Backend App](https://github.com/AnukratiMehta/elucidate-backend/tree/main) to access the Custom Backend data. 
+
 ### Additional Notes
 
 Please update the localhost in `UserSearch.js` with the IP address of the machine running the server to view the data on Expo on your Android phone.
