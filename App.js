@@ -13,7 +13,7 @@ const App = () => {
         <Stack.Screen
           name="Home"
           component={UserSearch}
-          options={{ title: 'GitHub User Search', headerTitleStyle: { color: '#783fc2' } }}
+          options={{ title: 'GitHub User Explorer', headerTitleStyle: { color: '#783fc2' } }}
         />
         <Stack.Screen
           name="RepositoryList"

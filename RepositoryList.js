@@ -20,7 +20,7 @@ const RepositoryList = ({ route }) => {
 
         const updatedRepositories = response.data.map((repo) => ({
           name: repo.name,
-          lastActiveDate: repo.pushed_at,
+          lastActiveDate: repo.updated_at,
           starCount: repo.stargazers_count,
           repoOwnerName: repo.owner.login,
           repoUrl: repo.html_url,
